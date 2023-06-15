@@ -1,6 +1,6 @@
 import View from './View.js';
 import icons from '../../img/icons.svg';
-import { Fraction } from 'fractional';
+// import { Fraction } from 'fractional';
 import { mark } from 'regenerator-runtime';
 
 class RecipeView extends View {
