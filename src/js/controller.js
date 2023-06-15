@@ -153,6 +153,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
   deleteRecipeView.addHandlerDeleteYes(controlDeleteRecipe);
+  console.log('Welcome to forkify!');
 };
 
 init();
