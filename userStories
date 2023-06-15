@@ -1,0 +1,5 @@
+-> As a user, I should be able to search recipes based on the name of the dish 
+-> As a user, I should be able to create my own recipes but it should be visible to only me and not other users
+-> As a user, I should be able to bookmark recipes which I like. And when I revisit the site, the same recipes should be available in the bookmarks bar
+-> As a user, I should be able to get the recipe based on number of servings
+-> As a user, I should be able to get the step-by-step recipe to prepare the dish 
