@@ -60,8 +60,8 @@ export const loadSearchResults = async function (query) {
 };
 
 export const getSearchResultsPage = function (page = 1) {
-  start = (page - 1) * state.search.resultsPerPage;
-  end = page * state.search.resultsPerPage;
+  const start = (page - 1) * state.search.resultsPerPage;
+  const end = page * state.search.resultsPerPage;
   state.search.page = page;
   return state.search.recipes.slice(start, end);
 };

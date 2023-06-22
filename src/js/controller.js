@@ -10,7 +10,6 @@ import { MODAL_TIMER, FORM_MODAL_TIMER } from './config.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import { MODAL_TIMER } from './config.js';
 
 ///////////////////////////////////////
 // if (module.hot) {
