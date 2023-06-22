@@ -8,8 +8,8 @@ import addRecipeView from './views/addRecipeView.js';
 import deleteRecipeView from './views/deleteRecipeView.js';
 import { MODAL_TIMER, FORM_MODAL_TIMER } from './config.js';
 
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
+// import 'core-js/stable';
+// import 'regenerator-runtime/runtime';
 
 ///////////////////////////////////////
 // if (module.hot) {
@@ -29,7 +29,6 @@ const controlRecipes = async function () {
 
     // Rendering recipe
     recipeView.render(model.state.recipe);
-    console.log(model.state.recipe);
   } catch (err) {
     console.log(err);
   }
