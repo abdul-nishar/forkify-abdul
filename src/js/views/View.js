@@ -55,7 +55,7 @@ export default class View {
           <div class="error">
               <div>
               <svg>
-                  <use href="${icons}.svg#icon-alert-triangle"></use>
+                  <use href="${icons}#icon-alert-triangle"></use>
               </svg>
               </div>
               <p>${message}</p>
@@ -70,7 +70,7 @@ export default class View {
           <div class="message">
               <div>
               <svg>
-                  <use href="${icons}.svg#icon-smile"></use>
+                  <use href="${icons}#icon-smile"></use>
               </svg>
               </div>
               <p>${message}</p>
